@@ -1,16 +1,16 @@
-# Deploying the pMaximizer
+# OAuth Credentials Creator
 
 <walkthrough-metadata>
-  <meta name="title" content="Deploying the pMaximizer" />
-  <meta name="description" content="A step by step guide on configuring cloud and deploying the dashboard." />
+  <meta name="title" content="Creating OAuth credentials" />
+  <meta name="description" content="A step by step guide on configuring cloud and creating OAuth credentials (client id, client secret and a refresh token)." />
 </walkthrough-metadata>
 
 ## Introduction
 
-In this walkthrough, you'll generate OAuth credentials in preparation for the deployment of the pMaximizer.
+In this walkthrough, you'll generate OAuth credentials in preparation for the deployment of a GPS solution.
 
 <walkthrough-tutorial-difficulty difficulty="2"></walkthrough-tutorial-difficulty>
-<walkthrough-tutorial-duration duration="20"></walkthrough-tutorial-duration>
+<walkthrough-tutorial-duration duration="10"></walkthrough-tutorial-duration>
 
 
 ## Google Cloud Project Setup
@@ -19,7 +19,7 @@ GCP organizes resources into projects. This allows you to
 collect all of the related resources for a single application in one place.
 
 Begin by creating a new project or selecting an existing project for this
-dashboard.
+solution.
 
 <walkthrough-project-setup billing></walkthrough-project-setup>
 
@@ -39,13 +39,6 @@ Enable the Google Ads API and the BigQuery API so that they're incorporated in t
 First, let's switch off your shell's ephemeral mode.
 
 Click <walkthrough-spotlight-pointer spotlightId="cloud-shell-more-button" target="cloudshell" title="Show me where">**More**</walkthrough-spotlight-pointer> and look for the `Ephemeral Mode` option. If it is turned on turn it off. This allows the dashboard code to persist across sessions.
-
-## Authorize shell scripts commands
-
-Copy the following command into the shell, press enter and follow the instructions:
-```bash
-gcloud auth login
-```
 
 
 ## Configure OAuth Consent Screen
@@ -68,11 +61,7 @@ An authorization token is needed for the dashboard to communicate with Google Ad
     to continue.
 
 1.  Under *App information*, enter the **Application name** you want to display.
-    You can copy the name below and enter it as the application name.
-
-    ```
-    pMaximizer
-    ```
+    You enter the name of the solution you're deploying as the application name.
 
 1.  For the **Support email** dropdown menu, select the email address you want
     to display as a public contact. This email address must be your email
