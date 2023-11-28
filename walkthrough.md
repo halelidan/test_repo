@@ -26,18 +26,26 @@ solution.
 For details, see
 [Creating a project](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project).
 
-### Enable Google Cloud APIs
+## Enable Google Cloud APIs
 
 Enable required API's for this project. Choose the necessary API's to the solution you're deploying, so that they're incorporated in the credentials you will generate in the next step.
+
+### Google Ads API 
 
 <walkthrough-enable-apis apis="googleads.googleapis.com">
 </walkthrough-enable-apis>
 
+### Big Query API 
+
 <walkthrough-enable-apis apis="bigquery.googleapis.com">
 </walkthrough-enable-apis>
 
+### Google Drive API 
+
 <walkthrough-enable-apis apis="drive.googleapis.com">
 </walkthrough-enable-apis>
+
+### Google Sheets API 
 
 <walkthrough-enable-apis apis="sheets.googleapis.com">
 </walkthrough-enable-apis>
