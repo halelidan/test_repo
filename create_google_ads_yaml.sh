@@ -62,3 +62,7 @@ fi
 } > google-ads.yaml
 
 echo "google-ads.yaml file has been created/updated."
+
+cloudshell download-file google-ads.yaml
+
+echo "google-ads.yaml file has been downloaded to filesystem."
