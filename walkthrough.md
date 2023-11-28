@@ -146,19 +146,16 @@ After generating the client_id and client_secret keep the confirmation screen op
 6. Finally, in the middle of the screen you'll see your refresh token on the last line.  Copy it and save it for future reference.  ![refresh_token](https://services.google.com/fh/files/misc/refresh_token.png) *Do not copy the quotation marks*
 
 
-## Create a google-ads.yaml file 
+## Save Credentials in a google-ads.yaml File 
 
-Run the following command and follow the steps:
-
-Make sure to have your developer token, your MCC ID and Merchant Center Id(*) on hand, in addition to the rest of the credentials generated in the previous steps.
-
-(*) if you would like to enhance your analysis for retail use cases.
-
-When prompted, choose N to enter credentials one by one.
+If you would like to save the credentials and in a google-ads.yaml file and download it to your PC, do the following:
+Copy the following command into the terminal, press enter and follow the instructions.
 
 ```bash
 sh create_google_ads_yaml.sh
 ```
+
+Enter credentials one by one, and choose "Download" to download the file to your file system.
 
 
 ## Conclusion
