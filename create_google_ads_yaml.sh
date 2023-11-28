@@ -1,4 +1,18 @@
 #!/bin/bash
+# Copyright 2022 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+set -e
 
 # Function to prompt for input and validate
 prompt_and_validate() {
@@ -32,7 +46,13 @@ else
     developer_token="Developer token missing"
 fi
 
-# Create the YAML file
+# Check if google-ads.yaml already exists
+if [ -f google-ads.yaml ]; then
+    echo "Warning: google-ads.yaml already exists and will be overwritten."
+    read -p "Press Enter to continue or Ctrl+C to cancel..."
+fi
+
+# Create or overwrite the YAML file
 {
     echo "customer_id: $customer_id"
     echo "client_secret: $client_secret"
@@ -41,4 +61,4 @@ fi
     echo "developer_token: $developer_token"
 } > google-ads.yaml
 
-echo "google-ads.yaml file has been created."
+echo "google-ads.yaml file has been created/updated."
