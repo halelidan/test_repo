@@ -33,10 +33,11 @@ prompt_and_validate() {
 }
 
 # Prompt for variables with specific validations
-prompt_and_validate "Enter customer id" customer_id "-"
+
 prompt_and_validate "Enter client secret" client_secret "\""
 prompt_and_validate "Enter client id" client_id "\""
 prompt_and_validate "Enter refresh token" refresh_token "\""
+prompt_and_validate "Enter your customer id (MCC or cid in Google Ads) " customer_id "-"
 
 # Check for developer token
 read -p "Do you have a developer token? (y/n): " has_developer_token
@@ -54,7 +55,7 @@ fi
 
 # Create or overwrite the YAML file
 {
-    echo "customer_id: $customer_id"
+    echo "login_customer_id: $customer_id"
     echo "client_secret: $client_secret"
     echo "client_id: $client_id"
     echo "refresh_token: $refresh_token"
