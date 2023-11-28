@@ -28,13 +28,20 @@ For details, see
 
 ### Enable Google Cloud APIs
 
-Enable the Google Ads API and the BigQuery API so that they're incorporated in the credentials you will generate in the next step.
+Enable required API's for this project. Choose the necessary API's to the solution you're deploying, so that they're incorporated in the credentials you will generate in the next step.
 
 <walkthrough-enable-apis apis="googleads.googleapis.com">
 </walkthrough-enable-apis>
 
-<walkthrough-enable-apis apis="bigquery.googleapis.com,bigquerydatatransfer.googleapis.com">
+<walkthrough-enable-apis apis="bigquery.googleapis.com">
 </walkthrough-enable-apis>
+
+<walkthrough-enable-apis apis="drive.googleapis.com">
+</walkthrough-enable-apis>
+
+<walkthrough-enable-apis apis="sheets.googleapis.com">
+</walkthrough-enable-apis>
+
 
 
 ## Switch Off Ephemeral Mode
@@ -77,11 +84,12 @@ Click
 
 ## Add Sensitive Scopes to Consent Screen
 
-Scope the consent screen for Big Query API and the Google Ads API.
+Scope the consent screen for necessary API's to the solution you're deploying. 
+For example: Google Ads API, BigQuery API, etc. 
 
 1. Click <walkthrough-spotlight-pointer locator="semantic({button 'Add or remove scopes'})">Add or remove scopes</walkthrough-spotlight-pointer>
-1. Now in <walkthrough-spotlight-pointer locator="semantic({combobox 'Filter'})">Enter property name or value</walkthrough-spotlight-pointer> search for the BigQuery API, check the box for the first option to choose it.
-1. Do the same for Google Ads API.
+1. Now in <walkthrough-spotlight-pointer locator="semantic({combobox 'Filter'})">Enter property name or value</walkthrough-spotlight-pointer> search for the API you need, check the box for the first option to choose it.
+1. Do the same for all API's needed.
 1. Click <walkthrough-spotlight-pointer locator="text('Update')">Update</walkthrough-spotlight-pointer>
 
 ## Creating OAuth Credentials
@@ -129,13 +137,8 @@ After generating the client_id and client_secret keep the confirmation screen op
 5. Now, click the new blue button **Exchange authorization code for tokens** ![Exchange authorization code for tokens](https://services.google.com/fh/files/misc/exchange_authorization_code_for_token.png)
 6. Finally, in the middle of the screen you'll see your refresh token on the last line.  Copy it and save it for future reference.  ![refresh_token](https://services.google.com/fh/files/misc/refresh_token.png) *Do not copy the quotation marks*
 
-## Join Google Group to access dashboard template
 
-Use [this link](https://groups.google.com/g/pmax-dashboard-template-readers/) to access the group URL and click on "Join Group"
-
-![join_group](https://services.google.com/fh/files/misc/join_group.png)
-
-## Deploy Solution 
+## Create a google-ads.yaml file 
 
 Run the following command and follow the steps:
 
@@ -146,13 +149,13 @@ Make sure to have your developer token, your MCC ID and Merchant Center Id(*) on
 When prompted, choose N to enter credentials one by one.
 
 ```bash
-sh setup-wfs.sh
+sh create_google_ads_yaml.sh
 ```
 
 
 ## Conclusion
 
-Congratulations. You've set up the pMaximizer!
+Congratulations. You've created OAuth credentials for the solution you will soon deploy!
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
