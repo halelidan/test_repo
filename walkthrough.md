@@ -51,6 +51,15 @@ Enable required API's for this project. Choose the necessary API's to the soluti
 </walkthrough-enable-apis>
 
 
+## Additional API's:
+
+1.  If you do not see an API you need to enable in the list above, go to the **APIs & Services > Enabled APIs & services** page in the Cloud
+    Console. You can use the button below to find the section.
+
+    <walkthrough-menu-navigation sectionId="API_SECTION;metropolis_enabled_apis_and_services"></walkthrough-menu-navigation>
+
+    
+
 
 ## Switch Off Ephemeral Mode
 
