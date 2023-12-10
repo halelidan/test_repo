@@ -53,20 +53,21 @@ Enable required API's for this project. Choose the necessary API's to the soluti
 
 ### Additional API's:
 
-If you do not see an API you need to enable in the list above, you can manually add it by:
+If you do not see an API you need to enable in the list above, you can manually add it by following these steps:
 
 1.  Go to the **APIs & Services > Enabled APIs & services** page in the Cloud
     Console. You can use the button below to find the section.
 
     <walkthrough-menu-navigation sectionId="API_SECTION;metropolis_enabled_apis_and_services"></walkthrough-menu-navigation>
     
-2. Click <walkthrough-spotlight-pointer cssSelector=".mdc-button.mat-mdc-button.gmat-mdc-button-with-prefix.mat-primary.mat-mdc-button-base.gmat-mdc-button.cm-button">**ENABLE APIS AND SERVICES**</walkthrough-spotlight-pointer> to continue.
+2. Click <walkthrough-spotlight-pointer cssSelector=".mdc-button.mat-mdc-button.gmat-mdc-button-with-prefix.mat-primary.mat-mdc-button-base.gmat-mdc-button.cm-button">**Enable API's and Services**</walkthrough-spotlight-pointer>.
+3. Browse for the API's needed and enable them.
     
 
 
 ## Switch Off Ephemeral Mode
 
-First, let's switch off your shell's ephemeral mode.
+Now, let's switch off your shell's ephemeral mode if its operating.
 
 Click <walkthrough-spotlight-pointer spotlightId="cloud-shell-more-button" target="cloudshell" title="Show me where">**More**</walkthrough-spotlight-pointer> and look for the `Ephemeral Mode` option. If it is turned on turn it off. This allows the dashboard code to persist across sessions.
 
@@ -150,8 +151,8 @@ After generating the client_id and client_secret keep the confirmation screen op
 
 1. Go to the [OAuth2 Playground](https://developers.google.com/oauthplayground/#step1&scopes=https%3A//www.googleapis.com/auth/adwords&url=https%3A//&content_type=application/json&http_method=GET&useDefaultOauthCred=checked&oauthEndpointSelect=Google&oauthAuthEndpointValue=https%3A//accounts.google.com/o/oauth2/v2/auth&oauthTokenEndpointValue=https%3A//oauth2.googleapis.com/token&includeCredentials=unchecked&accessTokenType=bearer&autoRefreshToken=unchecked&accessType=offline&forceAprovalPrompt=checked&response_type=code) (opens in a new window)
 2. On the right-hand pane, paste the client_id and client_secret in the appropriate fields ![paste credentials](https://services.google.com/fh/files/misc/pplayground_fields.png)
-3. On the left-hand pane, select the scopes you for the APIs you need to access. Google Ads API will be selected automatically. See this example for selecting Google Drive API. ![select drive API](https://services.google.com/fh/files/misc/scope_selection.png)
-4. Then on the left hand side of the screen, click the blue **Authorize APIs** button ![Authorize APIs](https://services.google.com/fh/files/misc/authorize_apis.png)
+3. On the left-hand pane, select the scopes for the APIs you need to access. Google Ads API will be selected automatically. See this example for selecting Google Drive API. ![select drive API](https://services.google.com/fh/files/misc/scope_selection.png)
+4. After selecting all requiered scopes, click the blue **Authorize APIs** button on the left-hand pane. ![Authorize APIs](https://services.google.com/fh/files/misc/authorize_apis.png)
 
    If you are prompted to authorize access, please choose your Google account that has access to Google Ads and approve.
    
