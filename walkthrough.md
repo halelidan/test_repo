@@ -147,7 +147,7 @@ After generating the client_id and client_secret keep the confirmation screen op
 
 1. Go to the [OAuth2 Playground](https://developers.google.com/oauthplayground/#step1&scopes=https%3A//www.googleapis.com/auth/adwords&url=https%3A//&content_type=application/json&http_method=GET&useDefaultOauthCred=checked&oauthEndpointSelect=Google&oauthAuthEndpointValue=https%3A//accounts.google.com/o/oauth2/v2/auth&oauthTokenEndpointValue=https%3A//oauth2.googleapis.com/token&includeCredentials=unchecked&accessTokenType=bearer&autoRefreshToken=unchecked&accessType=offline&forceAprovalPrompt=checked&response_type=code) (opens in a new window)
 2. On the right-hand pane, paste the client_id and client_secret in the appropriate fields ![paste credentials](https://services.google.com/fh/files/misc/pplayground_fields.png)
-3. On the left-hand pane, select the scopes you for the APIs you need to access. Google Ads API will be selected automatically. See this example for selecting Google Drive API. ![select drive API](https://services.google.com/fh/gumdrop/preview/misc/scope_selection.png)
+3. On the left-hand pane, select the scopes you for the APIs you need to access. Google Ads API will be selected automatically. See this example for selecting Google Drive API. ![select drive API]()
 4. Then on the left hand side of the screen, click the blue **Authorize APIs** button ![Authorize APIs](https://services.google.com/fh/files/misc/authorize_apis.png)
 
    If you are prompted to authorize access, please choose your Google account that has access to Google Ads and approve.
