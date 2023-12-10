@@ -60,7 +60,7 @@ If you do not see an API you need to enable in the list above, you can manually 
 
     <walkthrough-menu-navigation sectionId="API_SECTION;metropolis_enabled_apis_and_services"></walkthrough-menu-navigation>
     
-2. Click <walkthrough-spotlight-pointer cssSelector="button[type='submit']">**ENABLE APIS AND SERVICES**</walkthrough-spotlight-pointer> to continue.
+2. Click <walkthrough-spotlight-pointer cssSelector="#cfc-action-bar-toolbar-container">**ENABLE APIS AND SERVICES**</walkthrough-spotlight-pointer> to continue.
     
 
 
