@@ -79,7 +79,7 @@ An authorization token is needed for the dashboard to communicate with Google Ad
 1.  Go to the **APIs & Services > OAuth consent screen** page in the Cloud
     Console. You can use the button below to find the section.
 
-    <walkthrough-menu-navigation sectionId="API_SECTION;metropolis_oauth_api_consent"></walkthrough-menu-navigation>
+    <walkthrough-menu-navigation sectionId="API_SECTION;oauth_api_consent"></walkthrough-menu-navigation>
 
 1.  Choose **External** as the user type for your application.
 
