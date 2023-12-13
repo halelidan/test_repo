@@ -9,8 +9,8 @@ This repository contains a comprehensive, step-by-step tutorial that will help y
 
 ## Getting Started
 
-1. **Prerequisites**: Before you begin, ensure you have a Google Cloud account and basic understanding of GCP services.
-2. **Tutorial Link**: [![Click to start walkthrough tutotrial](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCDIyJjIDWlJHd_x6RAaKczT5_9yc_IC3voZoSUgPwZ9Qn2gQRI3-e_Ra9UR2zEgMVMBM&usqp=CAU)](https://console.cloud.google.com/?cloudshell=true&cloudshell_git_repo=https://github.com/halelidan/test_repo&cloudshell_tutorial=walkthrough.md)
+1. **Prerequisites**: Before you begin, ensure you have a Google Cloud account.
+2. **Tutorial Link**: [Step-by-Step OAuth Credentials Tutorial in GCP](https://console.cloud.google.com/?cloudshell=true&cloudshell_git_repo=https://github.com/halelidan/test_repo&cloudshell_tutorial=walkthrough.md)
 3. **What You'll Learn**: The tutorial covers the following key topics:
    - Setting up a project in GCP
    - Enabling APIs for your project
