@@ -20,4 +20,4 @@ This repository contains a comprehensive, step-by-step tutorial that will help y
 
 ## Contact
 
-For any additional questions or feedback, feel free to contact us at [halelid@google.com](mailto:halelid@google.com).
+For any additional questions or feedback, feel free to contact [halelid@google.com](mailto:halelid@google.com).
