@@ -24,3 +24,29 @@ These are the steps to update your pMaximizer to the new version:
 | `cd pmax_best_practices_dashboard`<br>`git pull`<br>`sh upgrade_pmaximizer.sh`<br>[Video tutorial can be found here](https://youtu.be/mL773VRdWBI). (make sure you paste the sh upgrade_pmaximizer.sh and not the one used in the video). | `sh non_retail_to_retail_upgrade.sh`<br>[Video tutorial can be found here](https://youtu.be/SHlK0lXsAw8). |
 
 Follow the link at the end of the deployment process to see your new upgraded version!
+
+
+
+
+### Update to the newest version
+
+In order to update the code and produce a new updated dashboard link, execute these steps (If you wish to keep the same the dashboard as you previously produced you can, but in that case only backend updates will be implemented) . 
+
+1. Enter the [Google Cloud Platform (GCP)](https://console.cloud.google.com/).
+2. Make sure you’re in the project you deployed the pMaximizer to.
+3. Activate the cloud shell by clicking on the cloud shell button on upper right side of the screen.
+4. Execute (copy to the cloud shell and press enter) the following commands in your Cloud Shell:
+
+```
+cd pmax_best_practices_dashboard
+```
+
+```
+git pull
+```
+
+```
+sh upgrade_pmaximizer.sh
+```
+
+Follow the link at the end of the deployment process to see access the new frontend, or use your previous link if you wish to only update the backend of the dashboard. 
