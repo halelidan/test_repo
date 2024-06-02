@@ -2,7 +2,7 @@
 
 ## What type of upgrade do I need?
 
-There are three types of upgrades available today for the pMaximizer, depending on the user's needs:
+There are two types of upgrades available today for the pMaximizer, depending on the user's needs:
 
 1. An existing pMaximizer user wishing to upgrade to our latest version, including the use of a new Google Ads API version (after deprecation of v14), and new features to the dashboard such as the Asset Group Performance table. This update will result in a new Looker Studio dashboard with the latest updates.
 
