@@ -1,6 +1,6 @@
 # pMaximizer Update - v.3.0
 
-## What type of upgrade do I need?
+### What type of upgrade do I need?
 
 There are two types of upgrades available today for the pMaximizer, depending on the user's needs:
 
