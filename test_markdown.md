@@ -21,6 +21,6 @@ These are the steps to update your pMaximizer to the new version:
 
 | 1. **Existing pMaximizer users** | 2. **Non-retail pMaximizer users upgrading to the retail pMaximizer** |
 | -------------------------------- | ------------------------------------------------------------------- |
-| `cd pmax_best_practices_dashboard`<br>`git pull`<br>`sh upgrade_pmaximizer.sh`<br>[Video tutorial can be found here](#https://youtu.be/mL773VRdWBI). (make sure you paste the sh upgrade_pmaximizer.sh and not the one used in the video). | `sh non_retail_to_retail_upgrade.sh`<br>[Video tutorial can be found here](#https://youtu.be/SHlK0lXsAw8)). |
+| `cd pmax_best_practices_dashboard`<br>`git pull`<br>`sh upgrade_pmaximizer.sh`<br>[Video tutorial can be found here](https://youtu.be/mL773VRdWBI). (make sure you paste the sh upgrade_pmaximizer.sh and not the one used in the video). | `sh non_retail_to_retail_upgrade.sh`<br>[Video tutorial can be found here](https://youtu.be/SHlK0lXsAw8)). |
 
 Follow the link at the end of the deployment process to see your new upgraded version!
