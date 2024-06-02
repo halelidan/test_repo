@@ -34,7 +34,7 @@ In order to update the code and produce a new updated dashboard link, execute th
 
 1. Enter the [Google Cloud Platform (GCP)](https://console.cloud.google.com/).
 2. Make sure you’re in the project you deployed the pMaximizer to.
-3. Activate the cloud shell by clicking on the cloud shell button on upper right side of the screen.
+3. Activate the Cloud Shell by clicking on the "Activate Cloud Shell" icon on the upper right side of the screen: ![Activate Cloud Shell”](https://services.google.com/fh/files/misc/pmaximizer-impl-img5.png)
 4. Execute (copy to the cloud shell and press enter) the following commands in your Cloud Shell:
 
 ```
