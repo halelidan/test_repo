@@ -50,3 +50,12 @@ sh upgrade_pmaximizer.sh
 ```
 
 Follow the link at the end of the deployment process to see access the new frontend, or use your previous link if you wish to only update the backend of the dashboard. 
+
+### After finishing an upgrade, some tables are missing, and when looking at the table properties I see an "Invalid dimension" for two or three of the top columns (see this screenshot): 
+
+![column link error](https://services.google.com/fh/files/misc/ocid_bug.png)
+
+This could be caused by newly introduced columns that allow deep linking into the respective accounts, campaigns, or asset groups. If you do not want deep linking, you can simply replace the broken (red) columns of your tables with account_name, campaign_name, and asset_group_name respectively.
+
+If you do want the deep linking feature, see full instructions on how to fix the issue in [this document](https://docs.google.com/document/d/1bXSV6Et0xMD6XfS3y10qpdsbivrM_Y5-o71LMK8sbTI/edit?resourcekey=0-9MSOa9d1tYpWMnh2Zmr4Tg&tab=t.0) (you need to be part of the [Google group](https://groups.google.com/g/pmax-dashboard-template-readers/) to access the document).
+---
