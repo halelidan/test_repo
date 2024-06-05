@@ -1,5 +1,9 @@
 # pMaximizer Update - v.3.0
 
+### Installation
+
+Click [this link](https://console.cloud.google.com/?cloudshell=true&cloudshell_git_repo=https://github.com/google/pmax_best_practices_dashboard&cloudshell_tutorial=walkthrough.md) to be redirected to a Google Cloud tutorial that will guide you step-by-step in the deployment of pMaximizer. 
+
 ### What type of upgrade do I need?
 
 There are two types of upgrades available today for the pMaximizer, depending on the user's needs:
