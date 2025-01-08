@@ -12,12 +12,18 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 SELECT
+    segments.date AS date,
     customer.id AS customer_id,
     customer.descriptive_name AS customer_name,
     campaign.id AS campaign_id,
     campaign.name AS campaign_name,
+    campaign.status AS campaign_status,
+    campaign.labels AS campaign_label,
     ad_group.id as ad_group_id,
     ad_group.name AS ad_group_name,
+    ad_group.labels AS ad_group_label,
+    ad_group.status AS ad_group_status,
+    ad_group_ad.labels AS ad_group_ad_label,
     asset.id AS asset_id,
     asset.name AS asset_name,
     ad_group_ad_asset_view.field_type AS asset_type,
@@ -26,8 +32,10 @@ SELECT
     asset.image_asset.full_size.url AS image_asset_url,
     asset.youtube_video_asset.youtube_video_id AS youtube_video_id,
     ad_group_ad_asset_view.performance_label AS asset_performance_label,
-    metrics.clicks AS clicks, 
+    metrics.clicks AS clicks,
     metrics.conversions AS conversions,
     metrics.ctr AS ctr,
     metrics.impressions AS impressions
 FROM ad_group_ad_asset_view
+WHERE segments.date >= '{start_date}'
+ AND segments.date <= '{end_date}'
