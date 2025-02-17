@@ -15,3 +15,4 @@
 SELECT customer.id
 FROM campaign
 WHERE campaign.advertising_channel_type = "SEARCH"
+AND campaign.status = 'ENABLED'
