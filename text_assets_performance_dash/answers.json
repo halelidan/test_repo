@@ -12,7 +12,7 @@
   "deploy_wf": true,
   "output_dataset": "textlytics",
   "ads_macro": {
-    "start_date": ":YYYYMMDD-90",
+    "start_date": ":YYYYMMDD-30",
     "end_date": ":YYYYMMDD-1"
   },
   "bq_macro": {
@@ -27,7 +27,7 @@
   "dashboard_name": "textlytics",
   "dashboard_dataset": "textlytics",
   "dashboard_datasources": {
-    "ad_group_ad_asset": "ad_group_ad_asset_view",
+    "ad_group_ad_asset_view": "ad_group_ad_asset_view",
     "text_assets_performance": "text_assets_performance"
   }
 }
