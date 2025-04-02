@@ -37,6 +37,8 @@ SELECT
     metrics.conversions AS conversions,
     metrics.cost_micros AS cost,
     metrics.ctr AS ctr,
+    metrics.average_cpc AS avg_cpc,
+    metrics.conversions_value AS conversion_value,
     metrics.impressions AS impressions
 FROM ad_group_asset
 WHERE campaign.status = 'ENABLED'
